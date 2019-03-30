@@ -1,0 +1,70 @@
+.embed-responsive-item {
+	padding : 0.5rem;
+}
+
+a:hover {
+	text-decoration : none;
+	color : inherit;
+}
+
+a {
+	color : inherit;
+}
+
+@media (max-width: 992px) { 
+	.card-group {
+    flex-flow: column wrap;
+	}
+}
+
+#portfolioContainer {
+	margin-top : 340px;
+}
+
+#resumeContainer {
+	margin-top : 60px;
+	height: 100%;
+    width: 100%;
+    position: absolute;
+	padding: 0;
+}
+
+div.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: fixed;
+	width: 100%;
+    top: 60px;
+	z-index: 100;
+}
+
+.card-deck {
+	background-color : #666;
+	margin-bottom : 0.5em;
+}
+
+.card {
+	border-radius : 0;
+	margin-top : 0.5em;
+}
+
+@media (min-width: 576px) {
+	.card-deck .card {
+		margin : 0.5em;
+	}
+	
+	#portfolioContainer {
+		margin-top : 140px;
+	}
+
+}
+
+.navbar a {
+	justify-content: flex-start;
+}
+.reels-label {
+	cursor : pointer;
+}
+
+#graphicsReels, #otherReels, #resumeContainer {
+	display : none;
+}
